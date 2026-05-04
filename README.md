@@ -1,53 +1,52 @@
-# WEB102 Prework - *Name of App Here*
+# Sea Monster Crowdfunding Dashboard
 
-Submitted by: **Your Name Here**
+Submitted by: **Rigong Te**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Sea Monster Crowdfunding Dashboard is a web page that displays information about games funded by the Sea Monster Crowdfunding company. The app shows company stats, a list of games, and buttons that filter the displayed games by funding status.
 
-Time spent: **X** hours spent in total
+Time spent: **3 hours**
 
 ## Required Features
 
-The following **required** functionality is completed:
+The following required functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the company background and how many games remain unfunded.
+* [x] The Stats section displays the total number of contributions, total amount raised, and total number of games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding.
+* [x] The Our Games section includes buttons to show only unfunded games, only funded games, or all games.
 
-The following **optional** features are implemented:
+## Optional Features
 
-* [ ] List anything else that you can get done to improve the app functionality!
+The following optional improvements can be added:
+
+* [ ] Display a running total of unfunded vs funded games.
+* [ ] Improve card styling and hover effects for better visual polish.
+* [ ] Add a video walkthrough or animated demo GIF.
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented features:
+Here's a walkthrough of the app in action:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="Demo.gif" title="Video Walkthrough" width="600" alt="Video Walkthrough" />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+## How to Run
+
+1. Open `index.html` in a browser.
+2. The page loads game data from `games.js` using JavaScript.
+3. Use the filter buttons to switch between unfunded games, funded games, and all games.
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+* The app uses `reduce()` to calculate totals such as total contributions and total pledged amount.
+* Game cards are created dynamically and appended to `#games-container`.
+* `deleteChildElements()` clears the current game cards before adding filtered results.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+Copyright 2026 [Your Name]
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
-        http://www.apache.org/licenses/LICENSE-2.0
+    http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
